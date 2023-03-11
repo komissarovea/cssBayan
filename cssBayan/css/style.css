@@ -28,6 +28,7 @@ main {
 .accordion
 {
     margin-top: 1em;
+    cursor: pointer;
 }
 
 .accordion-item
@@ -40,9 +41,14 @@ label {
     font-weight: bold;
     margin: 0.9rem 0;
     display: block;
+    cursor: pointer;
 }
 
 img {
     width: 60%;
     margin-left: 20%;
+}
+
+input[type=radio] {
+    display: none;
 }
