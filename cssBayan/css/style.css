@@ -42,6 +42,7 @@ label {
     margin: 0.9rem 0;
     display: block;
     cursor: pointer;
+    color: blue;
 }
 
 img {
@@ -55,3 +56,5 @@ input[type=radio] {
 }
 
 :checked ~ img { display: block; }
+
+:checked ~ label { color: black; }
