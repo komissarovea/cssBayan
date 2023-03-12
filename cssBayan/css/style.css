@@ -25,16 +25,13 @@ main {
     }
 } */
 
-.accordion
-{
+.accordion {
     margin-top: 1em;
     cursor: pointer;
 }
 
-.accordion-item
-{
+.accordion-item {
     border-top: 0.1rem solid rgb(210, 210, 210);
-    margin-bottom: 1rem;
 }
 
 label {
@@ -45,16 +42,37 @@ label {
     color: blue;
 }
 
-img {
-    width: 60%;
-    margin-left: 20%;
-    display: none;
-}
-
 input[type=radio] {
     display: none;
 }
 
-:checked ~ img { display: block; }
+:checked~label {
+    color: black;
+}
 
-:checked ~ label { color: black; }
+img {
+    display: none;
+}
+
+@keyframes scale-image {
+    0% {
+        margin-left: 30%;
+        height: 40%;
+        width: 40%;
+    }
+
+    100% {
+        margin-left: 20%;
+        height: 60%;
+        width: 60%;
+    }
+}
+
+:checked~img {
+    display: block;
+    animation: scale-image 0.3s ease-in-out;
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+}
