@@ -18,7 +18,7 @@
 }
 
 :checked~label .icon-img, .accordion-item:hover .icon-img {
-    animation: rotate-icon 0.01s;
+    animation: rotate-icon 0.05s;
     transform: rotate(45deg);
 }
 

@@ -21,7 +21,6 @@
     }
 }
 
-
 :checked~label .meme-img, .accordion-item:hover .meme-img, :not(:checked)~label:hover .meme-img {
     display: block;
     animation: scale-image 0.7s ease-in-out;
