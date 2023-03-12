@@ -1,6 +1,6 @@
 .meme-img {
     display: none;
-    margin-top: 0.5em;
+    margin-bottom: 1em;
     margin-left: 20%;
     /* height: 20em; */
     width: 60%;
@@ -21,7 +21,8 @@
     }
 }
 
-:checked~label .meme-img, .accordion-item:hover .meme-img, :not(:checked)~label:hover .meme-img {
+/* , :not(:checked)~label:hover .meme-img */
+:checked~label .meme-img, .accordion-item:hover .meme-img {
     display: block;
     animation: scale-image 0.7s ease-in-out;
 }

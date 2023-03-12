@@ -1,8 +1,8 @@
 .icon-img {
     width: 0.7rem;
+    height: 0.7rem;
     margin-top: 0.2rem;
     margin-right: 0.2rem;
-    float: right;
     transform-origin: center;
     display: none;
 }

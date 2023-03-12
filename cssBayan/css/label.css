@@ -1,15 +1,19 @@
-label {
+.meme-title {
     font-weight: bold;
     padding: 0.9rem 0;
-    display: block;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
     color: blue;
 }
 
-:checked~label {
+:checked~.meme-title {
     color: black;
 }
 
-.accordion:hover label {
+.accordion:hover .meme-title {
     color: black;
+}
+
+label {
+    cursor: pointer;
 }
