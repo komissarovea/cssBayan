@@ -1,41 +1,33 @@
 .meme-img {
     display: none;
+    margin-top: 0.5em;
+    margin-left: 20%;
+    /* height: 20em; */
+    width: 60%;
+    object-fit: contain;
 }
 
 @keyframes scale-image {
     0% {
         opacity: 0.5;
         margin-left: 30%;
-        height: 40%;
         width: 40%;
     }
 
     100% {
         opacity: 1;
         margin-left: 20%;
-        height: 60%;
         width: 60%;
     }
 }
 
-:checked~label .meme-img, .accordion-item:hover .meme-img{
+:checked~label .meme-img, .accordion-item:hover .meme-img {
     display: block;
-    /* animation: scale-image 0.7s ease-in-out; */
-    height: 60%;
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 1rem;
 }
 
 :not(:checked)~label:hover .meme-img {
     display: block;
     animation: scale-image 0.7s ease-in-out;
-    height: 60%;
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 1rem;
 }
 
 /* :not(:checked)~ */
-
-  
