@@ -9,7 +9,12 @@ body {
     background-color: #f5f5eb;
     padding: 5%;
     font-family: "Roboto", sans-serif;
-    overflow: hidden; 
+    overflow: hidden;
+}
+
+h2 {
+    cursor: pointer;
+    padding-bottom: 1em;
 }
 
 main {
@@ -26,13 +31,9 @@ main {
     }
 } */
 
-.accordion {
-    margin-top: 1em;
-    cursor: pointer;
-}
-
 .accordion-item {
     border-top: 0.1rem solid rgb(210, 210, 210);
+    cursor: pointer;
 }
 
 input[type=radio] {
