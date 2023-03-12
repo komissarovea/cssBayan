@@ -1,0 +1,15 @@
+label {
+    font-weight: bold;
+    padding: 0.9rem 0;
+    display: block;
+    cursor: pointer;
+    color: blue;
+}
+
+:checked~label {
+    color: black;
+}
+
+.accordion:hover label {
+    color: black;
+}
