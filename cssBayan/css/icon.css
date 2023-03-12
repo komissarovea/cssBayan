@@ -17,7 +17,7 @@
     }
 }
 
-:checked~label .icon-img {
+:checked~label .icon-img, .accordion-item:hover .icongit-img {
     animation: rotate-icon 0.01s;
     transform: rotate(45deg);
 }
