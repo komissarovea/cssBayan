@@ -1,0 +1,23 @@
+.meme-title {
+    font-weight: bold;
+    padding: 0.9rem 0;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+
+:checked~.meme-title {
+    color: black;
+}
+
+.accordion:hover .meme-title {
+    color: black;
+}
+
+label {
+    cursor: pointer;
+}
+
+.accordion-item:active .meme-title {
+    color: blue;
+}
