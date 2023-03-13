@@ -17,3 +17,7 @@
 label {
     cursor: pointer;
 }
+
+.accordion-item:active .meme-title {
+    color: blue;
+}
